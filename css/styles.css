@@ -1,3 +1,15 @@
 h1{
-    color: aquamarine;
+    color: rgb(2, 2, 2);
+}
+body{
+    background-color: rgb(247, 4, 4);
+}
+#encabezado{
+background-color: rgb(214, 228, 20);
+height: 150px;
+width: 80%;
+margin: 0 auto;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 10px 10px 7px rgba(20, 20, 20, 0.3);
 }
