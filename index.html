@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="encabezado">
-        <div class="logo"><img src="imagenes/logoib.png" alt=""></div>
+        <div class="logo"><img src="imagenes/logoib.png" alt="Logo"></div>
         <div class="menu">
             <ul>
                 <li><a href="#">Inicio</a></li>
@@ -22,48 +22,59 @@
                 <li><a href="#">Campus Virtual</a></li>
             </ul>
         </div>
-        <div class="redes">Redes</div>
-        <a href="#"><img src="imagenes/facebook.png" alt="Facebook"></a>
-        <a href="#"><img src="imagenes/gmail.png" alt="Gmail"></a>
-        <a href="#"><img src="imagenes/linkedin.png" alt="Linkedin"></a>
-        <a href="#"><img src="imagenes/whatsapp.png" alt="whatsapp"></a>
-        <a href="#"><img src="imagenes/youtube.png" alt="Youtube"></a>
+        <div class="redes">
+            <a href="#"><img src="imagenes/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="imagenes/gmail.png" alt="Gmail"></a>
+            <a href="#"><img src="imagenes/linkedin.png" alt="Linkedin"></a>
+            <a href="#"><img src="imagenes/whatsapp.png" alt="whatsapp"></a>
+            <a href="#"><img src="imagenes/youtube.png" alt="Youtube"></a>
+        </div>
     </div>
-    <button onclick="saludar()">saludar </button>
-    <button onclick="suma()">suma</button>
-    <button onclick="resta()">resta</button>
-    <button onclick="multiplicacion()">multiplicacion</button>
-    <button onclick="division()">division</button>
+  
 
     <!-- Seccion de Cards -->
     <div id="seccion-cards">
         <div class="card">
-            <p>Realidad Virtual (RV)<br>La realidad virtual crea entornos digitales en 3D donde el usuario puede interactuar mediante visores y controles, simulando experiencias reales o imaginarias.</p>
+            <div class="card-content">
+                <img src="imagenes/edicion.jpg" alt="Edicion y Video" class="card-img">
+                <h3>Edicion y Video</h3>
+                <p>Se dedica a la creación y edición de contenidos audiovisuales, combinando creatividad y técnicas digitales para producir videos de calidad.</p>
+            </div>
         </div>
         <div class="card">
-            <p><img src="imagenes/realidad.png" alt="Realidad Aumentada" width="200"></p>
+            <div class="card-content">
+                <img src="imagenes/camara.png" alt="Fotografia" class="card-img">
+                <h3>Fotografia</h3>
+                <p>Se dedica a la captura y edición de imágenes fotográficas, combinando creatividad y técnicas digitales para producir fotografías de calidad.</p>
+            </div>
         </div>
         <div class="card">
-            <p>Realidad Aumentada (RA)<br>La realidad aumentada superpone información digital sobre el mundo real, permitiendo una interacción más rica y contextual.</p>
+            <div class="card-content">
+                <img src="imagenes/dsm.jpg" alt="Programación" class="card-img">
+                <h3>Programación</h3>
+                <p>Se dedica al desarrollo de software y aplicaciones, combinando lógica, creatividad y técnicas digitales para crear soluciones innovadoras.</p>
+            </div>
         </div>
     </div>
 
     <!-- Seccion Grande -->
     <div id="seccion-grande">
-        <p>Las tecnologías de realidad virtual y aumentada se utilizan en educación, videojuegos, medicina, arquitectura y marketing, permitiendo nuevas formas de aprendizaje e interacción digital.</p>
+        <video autoplay muted loop id="video-fondo">
+            <source src="videos/grab.mp4" type="video/mp4">
+        </video>
+        <div class="grande-texto">
+            <h2>Sobre Nuestras Tecnologías</h2>
+            <p>Las áreas de Edición y Video, Fotografía y Programación se enfocan en la creación de contenidos digitales y soluciones tecnológicas, combinando creatividad, técnica y uso de herramientas digitales para comunicar ideas, desarrollar proyectos y resolver problemas en entornos digitales.</p>
+        </div>
     </div>
 
     <!-- Seccion PIE -->
     <div id="seccion-pie">
-        <div class="pie">
-            <p>© 2026 Derechos reservados<br>
-            Proyecto escolar.<br>
-            Uso educativo y sin fines de lucro</p>
+        <div class="pie-izquierda">
+            <p>© 2026 Derechos reservados | Proyecto escolar | Uso educativo y sin fines de lucro</p>
         </div>
-        <div class="pie">
-            <p>Desarrollado por: Erik Adrián Ibarra González<br>
-Materia: Frameworks para desarrollo Web<br>
-Institución educativa</p>
+        <div class="pie-derecha">
+            <p>Desarrollado por: Erik Adrián Ibarra González | Materia: Frameworks para desarrollo Web | Institución educativa</p>
         </div>
     </div>
 
